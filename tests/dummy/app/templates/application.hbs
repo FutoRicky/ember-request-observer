@@ -1,0 +1,12 @@
+{{#if requestObserver.requestInProgress}}
+<h3>REQUEST IN PROGRESS...</h3>
+{{/if}}
+
+<button {{action 'getSources'}}>Get the sources</button>
+
+{{#each data.articles as |article|}}
+  <h3>{{article.title}}</h3>
+  <h4>{{article.author}}</h4>
+  <img style="width: 20em;" src="{{article.urlToImage}}">
+  <p>{{article.description}}</p>
+{{/each}}

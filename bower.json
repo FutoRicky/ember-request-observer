@@ -1,5 +1,5 @@
 {
-  "name": "ember-server-observer",
+  "name": "ember-request-observer",
   "dependencies": {
     "ember": "~2.8.0",
     "ember-cli-shims": "0.1.1"

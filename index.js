@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-server-observer'
+  name: 'ember-request-observer'
 };

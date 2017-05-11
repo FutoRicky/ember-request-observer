@@ -1,11 +1,11 @@
-# Ember-server-observer
+# ember-request-observer
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ember-server-observer`
+* `cd ember-request-observer`
 * `npm install`
 * `bower install`
 
