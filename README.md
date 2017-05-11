@@ -1,27 +1,41 @@
 # ember-request-observer
 
-This README outlines the details of collaborating on this Ember addon.
+Ember service to observe when a request is in progress
 
-## Installation
+![](http://imgur.com/RMhgqmq.gif)
 
-* `git clone <repository-url>` this repository
-* `cd ember-request-observer`
-* `npm install`
-* `bower install`
+Versions
+-------------
+Current version is running ember-cli >= `2.8.0`
 
-## Running
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Installation
+-------------
+`ember install ember-request-observer`
 
-## Running Tests
+Usage
+-------------
+Inject the service to controller or component
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+`requestObserver: Ember.inject.service('request-observer')`
 
-## Building
+Use the `requestInProgress` method like so: `requestObserver.requestInProgress`
 
-* `ember build`
+| result | description              |
+| ------ | ------------------------ |
+|true    | a request is in progress |
+|false   | no requests in progress  |
 
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+It can be used on the controller/component as well as in the template like so:
+
+`{{requestObserver.requestInProgress}}`
+
+Contributions
+-------------
+
+All contributions are welcomed and encouraged.
+
+Please make all pull requests to the `dev` branch.
+
+Thanks!
+
