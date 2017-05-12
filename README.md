@@ -1,8 +1,10 @@
-# ember-request-observer
+# Ember-request-observer
+
+[![Build Status](https://travis-ci.org/FutoRicky/ember-request-observer.svg?branch=master)](https://travis-ci.org/FutoRicky/ember-request-observer)
 
 Ember service to observe when a request is in progress
 
-![](http://imgur.com/RMhgqmq.gif)
+![](http://imgur.com/XBdn1Uj.gif)
 
 Versions
 -------------
