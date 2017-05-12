@@ -1,6 +1,6 @@
 {
   "name": "ember-request-observer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Ember service to observe when a request is in progress",
   "directories": {
     "doc": "doc",
