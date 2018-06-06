@@ -9,7 +9,7 @@ Ember service to observe when a request is in progress
 
 Versions
 -------------
-Current version is running ember-cli >= `2.8.0`
+Current version is running ember-cli >= `3.1.0`
 
 
 Installation
