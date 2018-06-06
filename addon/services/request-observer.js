@@ -1,6 +1,9 @@
-import Ember from 'ember';
+import Service from '@ember/service';
+import { computed } from '@ember/object';
+import $ from 'jquery';
 
-export default Ember.Service.extend({
+
+export default Service.extend({
 
   init() {
     this._super(...arguments);
@@ -9,11 +12,11 @@ export default Ember.Service.extend({
       this.notifyPropertyChange('startStopProperty');
     };
 
-    Ember.$(document).ajaxStart(requestPropertyChange);
-    Ember.$(document).ajaxStop(requestPropertyChange);
+    $(document).ajaxStart(requestPropertyChange);
+    $(document).ajaxStop(requestPropertyChange);
   },
 
-  requestInProgress: Ember.computed('startStopProperty', function() {
-    return Ember.$.active !== 0;
+  requestInProgress: computed('startStopProperty', function() {
+    return $.active !== 0;
   }),
 });

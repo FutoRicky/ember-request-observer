@@ -1,4 +1,5 @@
 import { moduleFor, test } from 'ember-qunit';
+import $ from 'jquery';
 
 moduleFor('service:request-observer', 'Unit | Service | request observer', {
   // Specify the other units that are required for this test.

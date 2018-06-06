@@ -20,7 +20,7 @@ Usage
 -------------
 Inject the service to controller or component
 
-`requestObserver: Ember.inject.service('request-observer')`
+`requestObserver: inject.service('request-observer')`
 
 Use the `requestInProgress` method like so: `requestObserver.requestInProgress`
 

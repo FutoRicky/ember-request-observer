@@ -1,8 +1,9 @@
-import Ember from 'ember';
+import Controller from '@ember/controller';
+import { inject as service } from '@ember/service';
 
-export default Ember.Controller.extend({
-  requestObserver: Ember.inject.service('request-observer'),
-  ajax: Ember.inject.service('ajax'),
+export default Controller.extend({
+  requestObserver: service('request-observer'),
+  ajax: service('ajax'),
 
   actions: {
     getSources() {
