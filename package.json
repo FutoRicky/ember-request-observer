@@ -1,6 +1,6 @@
 {
   "name": "ember-request-observer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Ember service to observe when a request is in progress",
   "keywords": [
     "ember-addon",
